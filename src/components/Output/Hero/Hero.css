@@ -1,0 +1,31 @@
+.Hero {
+	position: relative;
+	height: 250px;
+	background-image: url('../../../assets/2958.jpg');
+	background-position: center;
+	background-size: cover;
+	border-radius: 15px 15px 0px 0px;
+	cursor: default;
+}
+
+.Title {
+	position: absolute;
+	font-family: 'Lobster', cursive;
+	font-weight: 200;
+	font-size: 40px;
+	top: 30%;
+	left: 60%;
+	color: whitesmoke;
+}
+
+@media (max-width: 850px) {
+	.Title {
+		left: 40%;
+	}
+}
+
+@media (max-width: 650px) {
+	.Title {
+		left: 30%;
+	}
+}

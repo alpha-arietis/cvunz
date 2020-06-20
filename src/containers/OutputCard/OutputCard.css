@@ -1,0 +1,19 @@
+.OutputCard {
+	margin: 65px auto;
+	width: 800px;
+	height: 500px;
+	box-shadow: 0px 0px 20px #280155;
+	border-radius: 15px;
+}
+
+@media (max-width: 850px) {
+	.OutputCard {
+		width: 90vw;
+	}
+}
+
+@media (max-width: 650px) {
+	.OutputCard {
+		height: 600px;
+	}
+}

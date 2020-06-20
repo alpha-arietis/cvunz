@@ -1,0 +1,13 @@
+.Summary {
+	height: 250px;
+	position: relative;
+	display: flex;
+	border-radius: 15px;
+}
+
+@media (max-width: 650px) {
+	.Summary {
+		height: 350px;
+		flex-direction: column;
+	}
+}

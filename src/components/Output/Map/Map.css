@@ -1,0 +1,18 @@
+.Map {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	background-color: white;
+	width: 28%;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0px 0px 15px 0px;
+}
+@media (max-width: 650px) {
+	.Map {
+		width: 100%;
+		border-radius: 0px 0px 15px 15px;
+		flex-direction: row;
+		height: 100px;
+	}
+}

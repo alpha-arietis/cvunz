@@ -1,0 +1,23 @@
+.Layout {
+	background-image: url('../../assets/3173.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 850px;
+}
+
+.InfoModal {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.ModalLink {
+	color: #4b11b6;
+	transition: linear 0.4s;
+	text-decoration: transparent;
+}
+.ModalLink:hover {
+	color: #c07cd5;
+	text-decoration: #c07cd5 underline;
+}

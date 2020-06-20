@@ -1,0 +1,45 @@
+.Element {
+	float: left;
+	height: 210px;
+	width: 150px;
+	margin: 15px;
+	background-color: #eee;
+	border-radius: 15px;
+	transition: 0.3s;
+	cursor: default;
+	color: rgb(78, 78, 78);
+}
+
+.Element:hover {
+	box-shadow: 0px 0px 10px #bbb;
+	height: 212px;
+	width: 152px;
+	cursor: default;
+}
+
+@media (max-width: 850px) {
+	.Element {
+		width: 18vw;
+		margin: 15px 7px 15px 7px;
+	}
+	.Element:hover {
+		box-shadow: 0px 0px 10px #bbb;
+		height: 212px;
+		width: 19vw;
+		cursor: default;
+	}
+}
+
+@media (max-width: 650px) {
+	.Element {
+		font-size: small;
+		width: 25vw;
+		margin: 20px 7px 20px 7px;
+	}
+	.Element:hover {
+		box-shadow: 0px 0px 10px #bbb;
+		height: 212px;
+		width: 26vw;
+		cursor: default;
+	}
+}
