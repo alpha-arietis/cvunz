@@ -13,7 +13,7 @@ class Layout extends Component {
 		modal: false,
 	}
 	componentDidMount() {
-		const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+		const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 		const months = [
 			'January',
 			'February',
@@ -29,7 +29,7 @@ class Layout extends Component {
 			'December',
 		]
 		const date = new Date()
-		const currentDay = days[date.getDay() - 1]
+		const currentDay = days[date.getDay()]
 		const currentMonth = months[date.getMonth()]
 
 		this.setState({ today: `${currentDay}, ${date.getDate()} ${currentMonth}` })
@@ -75,7 +75,7 @@ class Layout extends Component {
 				</div>
 				<div className='InfoModal'>
 					<a
-						href='https://github.com/alpha-arietis?tab=repositories'
+						href='https://github.com/alpha-arietis/cvunz'
 						onClick={this.modalHandler}
 						className='ModalLink'
 						target='blank'>
